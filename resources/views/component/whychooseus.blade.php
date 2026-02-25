@@ -1,114 +1,142 @@
-<section class="min-h-screen bg-[#f8f4ef] flex items-center">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Featured Bridal Shoes</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
 
-    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+<body class="bg-white">
 
-        <!-- LEFT CONTENT -->
-        <div>
+<section class="py-20">
+  <div class="max-w-7xl mx-auto px-6">
 
-            <span class="uppercase tracking-widest text-5xl text-purple-500 font-medium">
-                Why Choose Us
-            </span>
+    <!-- Heading -->
+    <h2 class="text-3xl font-serif text-center text-gray-900">
+      Featured Bridal Shoes
+    </h2>
 
-            <h2 class="text-5xl font-serif text-gray-800 leading-tight mt-5 mb-8">
-                Accessories That <br>
-                Define Your Style <br>
-                & Confidence
-            </h2>
+   <!-- Decorative underline -->
+<div class="flex justify-center mt-1 -mb-2">
+  <img
+    src="{{ asset('images/Graceful curved vine with leaves.png') }}"
+    alt="Underline Decorative"
+    class="w-68"
+  />
+</div>
 
-            <p class="text-lg text-gray-600 mb-10 leading-relaxed">
-                At our accessories store, we believe that the smallest details make the biggest
-                impact. Every piece in our collection is designed to elevate your look, reflect
-                your personality, and make you feel effortlessly confident — every single day.
-            </p>
 
-            <!-- FEATURES -->
-            <div class="space-y-8">
 
-                <div class="flex items-start gap-5">
-                    <div class="w-12 h-12 flex items-center justify-center rounded-full bg-purple-100 text-purple-600 text-xl">
-                        ✨
-                    </div>
-                    <div>
-                        <h4 class="text-xl font-medium text-gray-800 mb-1">
-                            Premium Quality Materials
-                        </h4>
-                        <p class="text-gray-600 leading-relaxed">
-                            Our accessories are crafted using high-quality materials that ensure
-                            durability, comfort, and a long-lasting luxurious finish.
-                        </p>
-                    </div>
-                </div>
+    <!-- Cards -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-14">
 
-                <div class="flex items-start gap-5">
-                    <div class="w-12 h-12 flex items-center justify-center rounded-full bg-pink-100 text-pink-500 text-xl">
-                        💎
-                    </div>
-                    <div>
-                        <h4 class="text-xl font-medium text-gray-800 mb-1">
-                            Trendy Yet Timeless Designs
-                        </h4>
-                        <p class="text-gray-600 leading-relaxed">
-                            We blend modern fashion trends with timeless elegance, so your
-                            accessories never go out of style.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="flex items-start gap-5">
-                    <div class="w-12 h-12 flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 text-xl">
-                        🎁
-                    </div>
-                    <div>
-                        <h4 class="text-xl font-medium text-gray-800 mb-1">
-                            Perfect for Every Occasion
-                        </h4>
-                        <p class="text-gray-600 leading-relaxed">
-                            Whether it’s daily wear, festive celebrations, or special moments,
-                            our accessories complete every outfit beautifully.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="flex items-start gap-5">
-                    <div class="w-12 h-12 flex items-center justify-center rounded-full bg-green-100 text-green-500 text-xl">
-                        🚚
-                    </div>
-                    <div>
-                        <h4 class="text-xl font-medium text-gray-800 mb-1">
-                            Safe Packaging & Fast Delivery
-                        </h4>
-                        <p class="text-gray-600 leading-relaxed">
-                            Each order is packed with care and delivered quickly, ensuring your
-                            accessories reach you in perfect condition.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
+      <!-- Card -->
+      <div class="group bg-white rounded-2xl border shadow-sm overflow-hidden transition">
+        <div class="overflow-hidden">
+          <img
+            src="images/ChatGPT Image Feb 9, 2026, 03_22_49 PM.png"
+            class="w-full h-64 object-cover transition duration-500 group-hover:-translate-y-2 group-hover:scale-105"
+          />
         </div>
 
-        <!-- RIGHT IMAGES (STACKED STYLE SAME) -->
-        <div class="grid grid-cols-2 gap-6">
+        <div class="p-6 text-center">
+          <h3 class="font-serif text-lg">Valentino</h3>
+          <p class="text-sm text-gray-500 mt-2">
+            Elegant handcrafted bridal heel with a classic silhouette.
+          </p>
 
-            <img src="{{ asset('images/1.jpg') }}"
-                 class="rounded-3xl object-cover h-64 w-full shadow-lg"
-                 alt="Accessories">
-
-            <img src="{{ asset('images/2.jpg') }}"
-                 class="rounded-3xl object-cover h-80 w-full shadow-lg mt-16"
-                 alt="Accessories">
-
-            <img src="{{ asset('images/3.jpg') }}"
-                 class="rounded-3xl object-cover h-80 w-full shadow-lg"
-                 alt="Accessories">
-
-            <img src="{{ asset('images/4.jpg') }}"
-                 class="rounded-3xl object-cover h-64 w-full shadow-lg -mt-16"
-                 alt="Accessories">
-
+          <div class="flex items-center justify-between mt-6">
+            <span class="font-medium">₹765</span>
+            <button class="bg-gray-900 text-white text-xs px-4 py-2 rounded-full">
+              BUY NOW
+            </button>
+          </div>
         </div>
+      </div>
+
+      <!-- Card -->
+      <div class="group bg-white rounded-2xl border shadow-sm overflow-hidden transition">
+        <div class="overflow-hidden">
+          <img
+            src="images/Ivory bridal heels with lace and pearls.png"
+            class="w-full h-64 object-cover transition duration-500 group-hover:-translate-y-2 group-hover:scale-105"
+          />
+        </div>
+
+        <div class="p-6 text-center">
+          <h3 class="font-serif text-lg">Vivienne</h3>
+          <p class="text-sm text-gray-500 mt-2">
+            Chic and modern, perfect for the contemporary bride.
+          </p>
+
+          <div class="flex items-center justify-between mt-6">
+            <span class="font-medium">₹899</span>
+            <button class="bg-gray-900 text-white text-xs px-4 py-2 rounded-full">
+              BUY NOW
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card -->
+      <div class="group bg-white rounded-2xl border shadow-sm overflow-hidden transition">
+        <div class="overflow-hidden">
+          <img
+            src="images/Ivory satin bridal shoes with block heels.png"
+            class="w-full h-64 object-cover transition duration-500 group-hover:-translate-y-2 group-hover:scale-105"
+          />
+        </div>
+
+        <div class="p-6 text-center">
+          <h3 class="font-serif text-lg">Christina</h3>
+          <p class="text-sm text-gray-500 mt-2">
+            Comfort meets style in this beautiful bridal shoe.
+          </p>
+
+          <div class="flex items-center justify-between mt-6">
+            <span class="font-medium">₹495</span>
+            <button class="bg-gray-900 text-white text-xs px-4 py-2 rounded-full">
+              BUY NOW
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card -->
+      <div class="group bg-white rounded-2xl border shadow-sm overflow-hidden transition">
+        <div class="overflow-hidden">
+          <img
+            src="images/Elegance in bridal footwear.png"
+            class="w-full h-64 object-cover transition duration-500 group-hover:-translate-y-2 group-hover:scale-105"
+          />
+        </div>
+
+        <div class="p-6 text-center">
+          <h3 class="font-serif text-lg">Carolina</h3>
+          <p class="text-sm text-gray-500 mt-2">
+            A timeless piece for your special day.
+          </p>
+
+          <div class="flex items-center justify-between mt-6">
+            <span class="font-medium">₹255</span>
+            <button class="bg-gray-900 text-white text-xs px-4 py-2 rounded-full">
+              BUY NOW
+            </button>
+          </div>
+        </div>
+      </div>
 
     </div>
 
+    <!-- View All -->
+    <div class="flex justify-center mt-14">
+      <a href ="{{ url('/bridalhill') }}"><button class="border px-8 py-3 rounded-full text-sm hover:bg-gray-900 hover:text-white transition">
+        View All Collections
+      </button></a >
+    </div>
+
+  </div>
 </section>
+
+</body>
+</html>
